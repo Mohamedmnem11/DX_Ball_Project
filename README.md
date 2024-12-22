@@ -35,7 +35,7 @@ Boundary and Reset: The ball changes direction on screen boundaries and resets i
 Game Over: The game ends if the player loses all lives or if all blocks are destroyed.
 Rendering and Display: The game is visually updated on the Nokia5110 display, with ball movements and grid changes shown.
 
-#The hardware
+The hardware
 Breadboard
 Tiva-C kit
 Nokia 5110 blue screen
@@ -46,8 +46,29 @@ jumpers
 The software
 the game code runs with interrupt, timer and drivers
 the game has 3 levels with 3 life attempts
+
+
+
+
+
+
+
+
+
+
+
 ![WhatsApp Image 2024-12-22 at 16 25 39_8b0d67d8](https://github.com/user-attachments/assets/6c8f86ac-bf7c-4292-b290-cbc0f14e7526)
-![Uploading WhatsApp Image 2024-12-22 at 16.25.02_b21dc5f0.jpg…]()
+
+
+
+
+![WhatsApp Image 2024-12-22 at 16 25 02_b21dc5f0](https://github.com/user-attachments/assets/c127307e-1446-4919-9bb9-8b8fed9f8be0)
+
+
+
+
+
+
 ![WhatsApp Image 2024-12-22 at 16 25 06_ad4b00da](https://github.com/user-attachments/assets/cb99f4da-6413-48c7-9aba-11c8edf0493e)
 
 

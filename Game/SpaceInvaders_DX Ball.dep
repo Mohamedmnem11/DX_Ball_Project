@@ -1,66 +1,0 @@
-Dependencies for Project 'SpaceInvaders', Target 'DX Ball': (DO NOT MODIFY !)
-F (.\startup.s)(0x6765D123)(--cpu Cortex-M4 --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
-F (.\Nokia5110.c)(0x6765D122)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\nokia5110.o --omf_browse .\nokia5110.crf --depend .\nokia5110.d)
-I (Nokia5110.h)(0x6765D122)
-F (.\random.s)(0x6765D122)(--cpu Cortex-M4 --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\random.lst --xref -o .\random.o --depend .\random.d)
-F (.\TExaS.c)(0x6765D123)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\texas.o --omf_browse .\texas.crf --depend .\texas.d)
-I (TExaS.h)(0x6765D123)
-F (.\TM4C123GH6PM1.h)(0x6765D123)()
-F (..\Drivers/screen_draw.c)(0x6768474C)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\screen_draw.o --omf_browse .\screen_draw.crf --depend .\screen_draw.d)
-I (..\Drivers/screen_draw.h)(0x6766D0A6)
-I (..\Drivers/../Game/Nokia5110.h)(0x6765D122)
-I (..\Drivers/Timer2_cfg.h)(0x67684D04)
-I (..\Drivers/Timer_2.h)(0x676838E4)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
-F (.\tm4c123gh6pm.h)(0x6765D123)()
-F (..\Drivers\Portf_Driver.c)(0x67685099)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\portf_driver.o --omf_browse .\portf_driver.crf --depend .\portf_driver.d)
-I (..\Drivers/Portf_Driver.h)(0x67685099)
-I (..\Game/tm4c123gh6pm.h)(0x6765D123)
-F (..\Drivers\PortFConfg.c)(0x67685099)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\portfconfg.o --omf_browse .\portfconfg.crf --depend .\portfconfg.d)
-I (..\Game/tm4c123gh6pm.h)(0x6765D123)
-I (..\Drivers/PortFConfg.h)(0x67685099)
-I (..\Drivers/Portf_Driver.h)(0x67685099)
-I (..\Drivers\../Game/Nokia5110.h)(0x6765D122)
-F (.\Main.c)(0x67684585)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\main.o --omf_browse .\main.crf --depend .\main.d)
-I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7FD94)
-I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7FD94)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
-I (tm4c123gh6pm.h)(0x6765D123)
-I (Nokia5110.h)(0x6765D122)
-I (TExaS.h)(0x6765D123)
-I (..\Drivers/Timer2_cfg.h)(0x67684D04)
-I (..\Drivers/Timer_2.h)(0x676838E4)
-I (..\Drivers/screen_draw.h)(0x6766D0A6)
-I (..\Game/GameLogic.h)(0x67684697)
-I (..\Drivers/ADC.h)(0x6765D121)
-I (..\Drivers/UART_INTERRUPT.h)(0x6765D122)
-I (..\Drivers/PortFConfg.h)(0x67685099)
-I (..\Drivers/Portf_Driver.h)(0x67685099)
-F (..\Drivers\ADC.c)(0x6767286A)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\adc.o --omf_browse .\adc.crf --depend .\adc.d)
-I (..\Drivers/ADC.h)(0x6765D121)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
-I (..\Game/Nokia5110.h)(0x6765D122)
-I (..\Drivers/PortFConfg.h)(0x67685099)
-I (..\Drivers/Portf_Driver.h)(0x67685099)
-I (..\Drivers/../Game/tm4c123gh6pm.h)(0x6765D123)
-F (..\Drivers\ADC.h)(0x6765D121)()
-F (..\Drivers\UART_INTERRUPT.c)(0x676848CC)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\uart_interrupt.o --omf_browse .\uart_interrupt.crf --depend .\uart_interrupt.d)
-I (..\Game/tm4c123gh6pm.h)(0x6765D123)
-I (..\Drivers\UART_INTERRUPT.h)(0x6765D122)
-I (..\Drivers\../Game/Nokia5110.h)(0x6765D122)
-I (..\Drivers/PortFConfg.h)(0x67685099)
-I (..\Drivers/Portf_Driver.h)(0x67685099)
-F (.\GameLogic.c)(0x67684697)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\gamelogic.o --omf_browse .\gamelogic.crf --depend .\gamelogic.d)
-I (GameLogic.h)(0x67684697)
-I (../Game/tm4c123gh6pm.h)(0x6765D123)
-I (../Game/Nokia5110.h)(0x6765D122)
-F (..\Drivers\Timer_2.h)(0x676838E4)()
-F (..\Drivers\Timer2_cfg.h)(0x67684D04)()
-F (..\Drivers\Timer_2.c)(0x67684D89)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\timer_2.o --omf_browse .\timer_2.crf --depend .\timer_2.d)
-I (..\Drivers\Timer_2.h)(0x676838E4)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
-I (..\Game/tm4c123gh6pm.h)(0x6765D123)
-F (..\Drivers\Timer2_cfg.c)(0x67684667)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\timer2_cfg.o --omf_browse .\timer2_cfg.crf --depend .\timer2_cfg.d)
-I (..\Drivers\Timer2_cfg.h)(0x67684D04)
-I (..\Drivers\Timer_2.h)(0x676838E4)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)

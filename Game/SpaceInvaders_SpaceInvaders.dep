@@ -1,52 +1,0 @@
-Dependencies for Project 'SpaceInvaders', Target 'SpaceInvaders': (DO NOT MODIFY !)
-F (.\startup.s)(0x628873BF)(--cpu Cortex-M4 --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
-F (.\Nokia5110.c)(0x67645E80)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\nokia5110.o --omf_browse .\nokia5110.crf --depend .\nokia5110.d)
-I (Nokia5110.h)(0x628873BF)
-F (.\random.s)(0x628873BF)(--cpu Cortex-M4 --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\random.lst --xref -o .\random.o --depend .\random.d)
-F (.\TExaS.c)(0x628873BF)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\texas.o --omf_browse .\texas.crf --depend .\texas.d)
-I (TExaS.h)(0x628873BF)
-F (../\Drivers/PORTF.c)(0x676593FE)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\portf.o --omf_browse .\portf.crf --depend .\portf.d)
-I (../\Drivers/PORTF.h)(0x676597F9)
-I (../\Drivers/../Game/tm4c123gh6pm.h)(0x628873BF)
-I (../\Drivers/../Game/Nokia5110.h)(0x628873BF)
-F (../\Drivers/PORTF.h)(0x676597F9)()
-F (.\TM4C123GH6PM1.h)(0x628873BF)()
-F (..\Drivers/TIMER2.c)(0x67659CBD)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\timer2.o --omf_browse .\timer2.crf --depend .\timer2.d)
-I (..\Drivers/TIMER2.h)(0x628873BF)
-I (..\Drivers/../Game/tm4c123gh6pm.h)(0x628873BF)
-F (..\\Drivers/shapes.c)(0x67645E7D)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\shapes.o --omf_browse .\shapes.crf --depend .\shapes.d)
-I (..\Drivers/shapes.h)(0x628873BF)
-F (..\Drivers/shapes.h)(0x628873BF)()
-F (..\Drivers/TIMER2.h)(0x628873BF)()
-F (..\Drivers/screen_draw.c)(0x67659CBD)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\screen_draw.o --omf_browse .\screen_draw.crf --depend .\screen_draw.d)
-I (..\Drivers/screen_draw.h)(0x676486B0)
-I (..\Drivers/../Game/Nokia5110.h)(0x628873BF)
-I (..\Drivers/TIMER2.h)(0x628873BF)
-F (.\tm4c123gh6pm.h)(0x628873BF)()
-F (..\Drivers/checkMoving.h)(0x628873BF)()
-F (..\Drivers/checkMoving.c)(0x67648D59)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\checkmoving.o --omf_browse .\checkmoving.crf --depend .\checkmoving.d)
-I (..\Drivers/checkMoving.h)(0x628873BF)
-I (..\Drivers/../Game/tm4c123gh6pm.h)(0x628873BF)
-I (..\Drivers/../Game/Nokia5110.h)(0x628873BF)
-F (..\Drivers\Portf_Driver.c)(0x676597F9)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\portf_driver.o --omf_browse .\portf_driver.crf --depend .\portf_driver.d)
-F (..\Drivers\PortFConfg.c)(0x676597F9)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\portfconfg.o --omf_browse .\portfconfg.crf --depend .\portfconfg.d)
-F (.\Main.c)(0x67659BFB)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\main.o --omf_browse .\main.crf --depend .\main.d)
-I (tm4c123gh6pm.h)(0x628873BF)
-I (Nokia5110.h)(0x628873BF)
-I (TExaS.h)(0x628873BF)
-I (..\Drivers/PORTF.h)(0x676597F9)
-I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7FD94)
-I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7FD94)
-I (..\Drivers/TIMER2.h)(0x628873BF)
-I (..\Drivers/shapes.h)(0x628873BF)
-I (..\Drivers/screen_draw.h)(0x676486B0)
-I (..\Drivers/checkMoving.h)(0x628873BF)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
-I (..\Drivers/ADC.h)(0x67657C44)
-F (..\Drivers\ADC.c)(0x6765987A)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\adc.o --omf_browse .\adc.crf --depend .\adc.d)
-I (..\Drivers/ADC.h)(0x67657C44)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
-I (..\Game/Nokia5110.h)(0x628873BF)
-I (..\Drivers/PORTF.h)(0x676597F9)
-I (..\Drivers/../Game/tm4c123gh6pm.h)(0x628873BF)
-F (..\Drivers\ADC.h)(0x67657C44)()
